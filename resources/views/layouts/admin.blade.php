@@ -67,6 +67,10 @@
                             <a class="nav-link {{ (Route::currentRouteName() == 'about-me') ? 'fw-bold' : ''  }}" href="{{ route('about-me') }}">{{ __('About Me') }}</a>
                         </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link {{ (Route::currentRouteName() == 'api.projects.index') ? 'fw-bold' : ''  }}" href="{{ route('api.projects.index') }}">{{ __('JSON Projects') }}</a>
+                        </li>
+
                     </ul>
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
