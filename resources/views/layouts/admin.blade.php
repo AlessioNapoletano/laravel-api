@@ -68,7 +68,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link {{ (Route::currentRouteName() == 'api.projects.index') ? 'fw-bold' : ''  }}" href="{{ route('api.projects.index') }}">{{ __('JSON Projects') }}</a>
+                            <a class="nav-link" href="{{ route('api.projects.index') }}">{{ __('JSON Projects') }}</a>
                         </li>
 
                     </ul>
