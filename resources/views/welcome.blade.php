@@ -62,7 +62,7 @@
                         </div>
     
                         <div class="button text-center mb-2">
-                            <a href="#" class="btn btn-primary">show</a>
+                            <a href="{{ route('api.projects.show', $project->slug) }}" class="btn btn-primary">show</a>
                         </div>
                     </div>
                 </div>  
